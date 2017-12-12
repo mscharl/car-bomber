@@ -1,20 +1,14 @@
-:root {
-    --body-bg: #f00;
-}
+@import "varaibles";
+@import "mixins";
+@import "reboot";
 
 
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-    background-color: var(--body-bg);
+html, body {
+    overflow: hidden;
 
     width: 100vw;
     height: 100vh;
-
-    &.inverted {
-        --body-bg: #000;
-    }
 }
+
+
+@import "components/Grid";

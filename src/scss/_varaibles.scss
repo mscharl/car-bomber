@@ -1,0 +1,31 @@
+$primary-color: #d66463;
+$secondary-color: #639cd6;
+
+$light: #eee;
+$dark: #333;
+
+
+$font-family-base: sans-serif;
+$font-size-base: 14px;
+$font-weight-base: 400;
+
+$line-height-base: 1.1;
+
+$body-color: $dark;
+$body-bg: $light;
+
+$headings-margin-bottom: 1.6em;
+$paragraph-margin-bottom: .625em;
+
+$dt-font-weight: bold;
+
+
+$link-color: $primary-color;
+$link-hover-color: darken($link-color, 8%);
+$link-decoration: none;
+$link-hover-decoration: underline;
+
+
+$table-cell-padding: .1825em;
+
+$text-muted: mix($light, $dark, 50%);
